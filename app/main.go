@@ -24,5 +24,5 @@ func main() {
 		fmt.Fprintf(os.Stderr, "%v error while reading the command: ", err)
 	}
 	// remove the trailing \n out from the command
-	fmt.Println(command[:len(command)-1] + " command not found")
+	fmt.Println(command[:len(command)-1] + ": command not found")
 }
